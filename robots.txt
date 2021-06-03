@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /Bands/
+Disallow: /dist/

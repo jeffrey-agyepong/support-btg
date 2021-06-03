@@ -1,0 +1,211 @@
+@font-face {
+  font-family: "Oswald";
+  src: url(Oswald-Light.ttf);
+}
+@font-face {
+  font-family: "Fjalla";
+  src: url(FjallaOne-Regular.ttf);
+}
+@font-face {
+  font-family: "Metal Mania";
+  src: url(MetalMania-Regular.ttf);
+}
+@font-face {
+  font-family: "Monitorica";
+  src: url(monitorica.regular.otf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: visible;
+  background: #383838;
+  font-family: "Metal Mania";
+}
+h1 {
+  font-family: Fjalla;
+  font-variant: small-caps;
+}
+h2 {
+  font-family: Fjalla;
+  font-variant: small-caps;
+}
+h4 {
+  color: white;
+}
+h5 {
+  font-weight: bold;
+}
+p {
+  font-size: 22px;
+  font-family: "Oswald";
+}
+.font {
+  font-family: "Oswald";
+}
+.header-li {
+  list-style-type: none;
+}
+li {
+  font-size: 28px;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.home {
+  width: 90%;
+}
+nav {
+  background: #383838;
+  font-family: "Metal Mania", "Fjalla";
+  font-size: 1.55rem;
+}
+
+nav .sidenav-trigger {
+  margin-top: 20px;
+}
+.header_toggle > span:not(:last-child) {
+  margin-bottom: 5px;
+}
+.header_toggle > span {
+  display: block;
+  width: 26px;
+  height: 2px;
+  background-color: #fff;
+  transition: all 0.3s ease-in-out;
+  transform-origin: 3px 1px;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto;
+  margin: auto;
+  grid-gap: 0.625rem;
+}
+.grid-container-1 {
+  display: grid;
+  grid-template-columns: auto;
+  margin: auto;
+  grid-gap: 0.625rem;
+}
+
+figcaption {
+  font-size: 1.875rem;
+  color: white;
+}
+.inner {
+  border-radius: 0.625rem;
+  background-color: #000000de;
+  padding: 0.625rem;
+  margin-top: 1.25rem;
+}
+
+.pad {
+  padding: 22px 0px 10px 0;
+}
+
+.p-10 {
+  padding-bottom: 10px;
+}
+.p-11 {
+  padding-top: 10px;
+}
+
+.mg-t {
+  margin-top: 15px;
+}
+
+.bg {
+  background: #030833;
+  border-radius: 25px;
+  width: 90%;
+  margin: 20px auto;
+  padding: 10px 10px 20px 10px;
+}
+.span {
+  padding: 10px;
+}
+
+.footer_links {
+  display: grid;
+  grid-template-columns: auto;
+  margin: auto;
+  width: 100%;
+  bottom: 0;
+}
+
+@media (max-width: 35.5rem) {
+  .info {
+    margin-left: 10px !important;
+  }
+}
+
+/*Tablet*/
+@media (min-width: 36rem) {
+  .grid-container {
+    grid-template-columns: 1fr 1fr;
+    margin-left: 1px;
+    margin-right: 1px;
+  }
+  .grid-container-1 {
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 1px;
+    margin-right: 1px;
+  }
+}
+
+/*Desktop*/
+@media (min-width: 64rem) {
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  nav {
+    font-size: ‭1.5625‬rem;
+  }
+  .logo {
+    float: left;
+  }
+  .member-container {
+    margin-left: 1px;
+    margin-right: 1px;
+  }
+  .social-container {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-left: 1px;
+    margin-right: 1px;
+  }
+  .band-info {
+    width: 60rem; /*500px*/
+  }
+  inner {
+    margin: 0.625rem;
+  }
+  table {
+    font-size: 1.5rem;
+    margin: 0 100px 0;
+  }
+  td {
+    width: 100px;
+  }
+  .pad {
+    padding: 25px 0px 10px 0;
+  }
+
+  .footer_links {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
