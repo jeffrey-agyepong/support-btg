@@ -15,7 +15,7 @@ class Footer extends HTMLElement {
         <div class="col l3 s12">
           <h5 class="white-text center">Support</h5>
           <p class="grey-text text-lighten-4 center">
-          <a href="http://support.beyondthegravemusic.com/" target="_blank" rel="noopener noreferrer"> <img height="36" src="dist/img/kofi.webp" alt=""/></a>
+          <a href="index.html" target="_blank" rel="noopener noreferrer"> <img height="36" src="dist/img/kofi.webp" alt=""/></a>
           </p>
         </div>
     <div class="col l3  s12">
