@@ -74,7 +74,9 @@ nav {
   font-family: "Metal Mania", "Fjalla";
   font-size: 1.55rem;
 }
-
+.nav-wrapper{
+  text-align: center;
+}
 nav .sidenav-trigger {
   margin-top: 20px;
 }
