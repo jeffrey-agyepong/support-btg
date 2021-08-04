@@ -12,7 +12,7 @@ class Header extends HTMLElement {
         <a href="https://beyondthegravemusic.com" class="logo">BEYOND THE GRAVE</a>
 
         <ul class="right hide-on-med-and-down header-li">
-          <li> <a href="index.html">Bands</a></li>
+          <li> <a href="https://bands.beyondthegravemusic.com/">Bands</a></li>
           <li><a href="https://www.beyondthegravemusic.com/tag/Interviews/">Interviews</a></li>
           <li><a href="https://www.beyondthegravemusic.com/tag/Reviews/">Reviews</a></li>
           <li><a href="https://www.samplers.beyondthegravemusic.com/">Samplers</a></li>
@@ -24,7 +24,7 @@ class Header extends HTMLElement {
         </ul>
 
         <ul id="nav-mobile" class="sidenav black center header-li">
-          <li><a href="index.html" class="white-text">Bands</a></li>
+          <li><a href="https://bands.beyondthegravemusic.com/" class="white-text">Bands</a></li>
           <li><a href="https://www.beyondthegravemusic.com/tag/Interviews/" class="white-text">Interviews</a></li>
           <li><a href="https://www.beyondthegravemusic.com/tag/Reviews/" class="white-text">Reviews</a></li>
           <li><a href="https://www.samplers.beyondthegravemusic.com/" class="white-text">Samplers</a></li>
