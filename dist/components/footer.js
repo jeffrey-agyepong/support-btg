@@ -21,7 +21,8 @@ class Footer extends HTMLElement {
     <div class="col l3  s12">
     <h5 class="white-text center-align">Connect</h5>
     <div class="flex icons center-align">
-
+    <span class="span"><a href="https://web.facebook.com/Beyondthegrave777" class="icon brands fab fa-bandcamp fa-3x"><span
+    class="label"></span></a></span>
       <span class="span"><a href="https://web.facebook.com/Beyondthegrave777" class="icon brands fab fa-facebook fa-3x"><span
             class="label"></span></a></span>
       <span class="span"><a href="https://www.instagram.com/beyond.the.grave_/" class="icon brands fab fa-instagram fa-3x"><span
