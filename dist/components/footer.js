@@ -13,10 +13,7 @@ class Footer extends HTMLElement {
       <p style="font-size:1rem;"> Beyond the Grave is an online magazine that focuses <b>primarily</b> on promoting underground Christian metal/hardcore bands.</p>
         </div>
         <div class="col l3 s12">
-          <h5 class="white-text center">Support</h5>
-          <p class="grey-text text-lighten-4 center">
-          <a href="index.html" target="_blank" rel="noopener noreferrer"> <img height="36" src="dist/img/kofi.webp" alt=""/></a>
-          </p>
+         
         </div>
     <div class="col l3  s12">
     <h5 class="white-text center-align">Connect</h5>

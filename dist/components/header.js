@@ -19,8 +19,6 @@ class Header extends HTMLElement {
           <li><a href="https://www.beyondthegravemusic.com/tag/News/">News</a></li>
           <!--<li><a href="https://store.beyondthegravemusic.com">Store</a></li>-->
           <li><a href="https://contact.beyondthegravemusic.com/">Contact</a></li>
-        <li><a href="http://support.beyondthegravemusic.com/">Support</a></li>
-
         </ul>
 
         <ul id="nav-mobile" class="sidenav black center header-li">
@@ -31,8 +29,6 @@ class Header extends HTMLElement {
           <li><a href="https://www.beyondthegravemusic.com/tag/News/" class="white-text">News</a></li>
             <!--<li><a href="https://store.beyondthegravemusic.com" class="white-text">Store</a></li>-->
           <li><a href="https://contact.beyondthegravemusic.com/" class="white-text">Contact</a></li>
-          <li><a href="http://support.beyondthegravemusic.com/" class="white-text">Support</a></li>
-
         </ul>
         <a href="#" data-target="nav-mobile" class="sidenav-trigger header_toggle">
           <span></span>
